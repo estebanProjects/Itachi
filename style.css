@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.container .box img {
+    cursor: pointer;
+}
+
 .container .box .dimensiones {
     display: flex;
     justify-content: space-evenly;

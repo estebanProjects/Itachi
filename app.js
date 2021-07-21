@@ -7,6 +7,8 @@ let height = 302
 let indice_de_crecimiento_width = 6.2
 let indice_de_crecimiento_height = 10.12
 
+width_height_en_pantalla()
+
 imagen_itachi.addEventListener('click', crecer_imagen)
 
 function crecer_imagen() {
@@ -15,4 +17,11 @@ function crecer_imagen() {
 
     width = width + indice_de_crecimiento_width
     imagen_itachi.style.width = width + "px"
+    
+    width_height_en_pantalla()
+}
+
+function width_height_en_pantalla() {
+    view_width.innerHTML = width.toFixed()
+    view_height.innerHTML = height.toFixed()
 }
