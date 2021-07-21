@@ -15,4 +15,11 @@
 .container .box {
     background-color: rgba(231, 14, 14, 0.801);
     padding: 8px;
+    text-align: center;
+}
+
+.container .box .dimensiones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
