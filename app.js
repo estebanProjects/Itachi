@@ -5,7 +5,7 @@ let view_height = document.getElementById('height')
 let width = 185
 let height = 302
 let indice_de_crecimiento_width = 6.2
-let indice_de_crecimiento_height = 10.12
+let indice_de_crecimiento_height = (height*indice_de_crecimiento_width)/width
 
 width_height_en_pantalla()
 
