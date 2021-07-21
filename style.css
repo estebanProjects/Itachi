@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(172, 71, 71, 0.774);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -16,10 +20,12 @@
     background-color: rgba(231, 14, 14, 0.801);
     padding: 8px;
     text-align: center;
+    border-radius: 8px;
 }
 
 .container .box img {
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .container .box .dimensiones {
